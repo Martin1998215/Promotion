@@ -44,7 +44,7 @@ const weekdays = [
 
 let vay = setInterval(getDisplay, 1000);
 
-const futureDate = new Date(2021, 3, 20, 14, 55, 00);
+const futureDate = new Date(2021, 5, 20, 14, 55, 00);
 let yr = futureDate.getFullYear();
 let ma = months[futureDate.getMonth()];
 let wday = weekdays[futureDate.getDay()];
